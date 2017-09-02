@@ -1,0 +1,59 @@
+.App{
+  position: fixed;
+  background-color: #3F51B5;
+  height: 100%;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.header{
+  text-align: center;
+}
+
+.footer{
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 16px;
+  font-size: 8pt;
+}
+
+.button_container{
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.container{
+  width: 100%;
+  text-align: center;
+}
+
+.random_number{
+  cursor: pointer;
+  display: table;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  font-size: 134pt;
+  color: #3F51B5;
+  background-color: #FFFFFF;
+  padding: 64px;
+  border-radius: 300px;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.random_number p{
+  display: table-cell;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.labelf{
+  margin: 5px;
+  display: inline-block;
+  font-size: 16pt;
+}
